@@ -1,10 +1,10 @@
-import { ThemeProvider } from './ThemeProvider';
-import { Welcome } from './Welcome/Welcome';
+import { ThemeProvider } from "./ThemeProvider";
+import { StartScreen } from "./StartScreen/StartScreen";
 
 export default function App() {
-  return (
-    <ThemeProvider>
-      <Welcome />
-    </ThemeProvider>
-  );
+    return (
+        <ThemeProvider>
+            <StartScreen />
+        </ThemeProvider>
+    );
 }
